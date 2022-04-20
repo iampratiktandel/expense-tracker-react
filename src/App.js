@@ -1,4 +1,5 @@
 import ExpenseList from "./components/ExpenseList/ExpenseList";
+import './App.css';
 
 function App() {
 
@@ -30,6 +31,9 @@ const expenses = [
 
 return (
   <div>
+    <div className="link">
+      <a href="https://github.com/iampratiktandel/expense-tracker-react" className='github__icon'>Github</a>
+    </div>
     <ExpenseList expenses={expenses}/>
   </div>
 );

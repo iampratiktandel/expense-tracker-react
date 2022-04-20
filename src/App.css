@@ -1,0 +1,11 @@
+.link {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.github__icon {
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
