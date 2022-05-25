@@ -1,10 +1,9 @@
 import ExpenseList from "./components/Expenses/ExpenseList/ExpenseList";
 import './App.css';
 import NewExpense from "./components/NewExpense/NewExpense";
+import { useState } from "react";
 
-const App = () => {
-
-const expenses = [
+const INITIAL_EXPENSES = [
   {
     id: 'e1',
     title: 'Laptop',
@@ -30,9 +29,14 @@ const expenses = [
   },
 ];
 
-const addExpenseHandler = expense => {
-  console.log(expense);
-}
+const App = () => {
+  const [expenses, setExpenses] = useState(INITIAL_EXPENSES);
+
+  const addExpenseHandler = expense => {
+    setExpenses((prevExpenses) => {
+      return [expense, ...prevExpenses];
+    });
+  }
 
 return (
   <div>
