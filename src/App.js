@@ -30,12 +30,16 @@ const expenses = [
   },
 ];
 
+const addExpenseHandler = expense => {
+  console.log(expense);
+}
+
 return (
   <div>
     <div className="link">
       <a href="https://github.com/iampratiktandel/expense-tracker-react" className='github__icon'>Github</a>
     </div>
-    <NewExpense />
+    <NewExpense onAddExpense={addExpenseHandler} />
     <ExpenseList expenses={expenses}/>
   </div>
 );
