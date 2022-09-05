@@ -1,0 +1,22 @@
+{
+  "keys": {
+    "accessKey": "F57498CA1DE079AC91FB88BD11EF5D25DB44E021",
+    "secretKey": "3C2B2F5777CAD7E017AE7610CB13D873C1185DA6"
+  },
+  "host": "api4.jscrambler.com",
+  "port": 443,
+  "applicationId": "6315cb333a8c160011dcedce",
+  "filesSrc": [
+    "./build/**/*.js"
+  ],
+  "filesDest": "./",
+  "params": [],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.3",
+  "tolerateMinification": true,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {},
+  "sourceMaps": false
+}
