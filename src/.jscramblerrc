@@ -1,0 +1,16 @@
+{
+  "keys": {
+    "accessKey": "F57498CA1DE079AC91FB88BD11EF5D25DB44E021",
+    "secretKey": "3C2B2F5777CAD7E017AE7610CB13D873C1185DA6"
+  },
+  "applicationId": "6315b233a5e3e300110938bc",
+  "params": [],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.3",
+  "tolerateMinification": true,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {},
+  "sourceMaps": false
+}
